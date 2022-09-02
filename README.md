@@ -13,4 +13,6 @@
 - YouTube. 2021. Visual Studio 2022 | How to connect a Visual Studio 2022 Project to GitHub? https://www.youtube.com/watch?v=zxJB5xjchpk Date of access: 30 August 2022
 - Youtube. 2022. Fix Microsoft SQL Server Connection error 47073. https://www.youtube.com/watch?v=jj7rQqZM9rI&t=107s. Date of access: 1 September 2022
 - YouTube.2022. Creating a ASP.NET CORE 3.1 API for your azure Database
-. https://www.youtube.com/watch?v=syKhpTOCDYI&t=8s Date of access: 22 Septemeber 2022.
+. https://www.youtube.com/watch?v=syKhpTOCDYI&t=8s Date of access: 2 Septemeber 2022.
+- Microsoft Docs.Publish an ASP.NET Core web API to Azure API Management with Visual Studio. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0 Date of access: September 2022
+- Microsoft Developer. 2020.Demo: Azure AD Authentication for Azure SQL | Azure SQL for beginners (Ep. 25). https://www.youtube.com/watch?v=IwpmLUpvTBA Date of access:
