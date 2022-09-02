@@ -11,3 +11,6 @@
 - SQL Server 101. Creating a Microsoft Azure SQL database(SQL Server in the Cloud). https://www.youtube.com/watch?v=kMCNTLnna04 Date of access: 29 August 2022
 
 - YouTube. 2021. Visual Studio 2022 | How to connect a Visual Studio 2022 Project to GitHub? https://www.youtube.com/watch?v=zxJB5xjchpk Date of access: 30 August 2022
+- Youtube. 2022. Fix Microsoft SQL Server Connection error 47073. https://www.youtube.com/watch?v=jj7rQqZM9rI&t=107s. Date of access: 1 September 2022
+- YouTube.2022. Creating a ASP.NET CORE 3.1 API for your azure Database
+. https://www.youtube.com/watch?v=syKhpTOCDYI&t=8s Date of access: 22 Septemeber 2022.
