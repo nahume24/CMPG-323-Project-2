@@ -135,3 +135,9 @@ C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-3221031
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\obj\Debug\netcoreapp3.1\Project2-32210310.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
