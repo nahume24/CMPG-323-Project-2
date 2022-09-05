@@ -1,6 +1,8 @@
 # CMPG-323-Project-2---32210310
 ![api-512d36c09662682717108a38bbb5c57d](https://user-images.githubusercontent.com/38375869/186129418-4ea5a789-1a4f-49f9-b384-61a8c2ae4559.gif)
 # About Project
+The aim of the project is to develop a CRUD RESTful API that will connect to a database containING data from IoT devices. The API(Application Programming Interface) will have at least one get, post, patch, and delete method for each resource. A variety of the RESTful API design's interfaces will be Saas and execute application code to alter databases..
+C-Create(PUT) R-Read(GET) U-Update(POST) D- Delete( DELETE)
 # How stakeholders are to use the report
 
 # How the user would use the API
@@ -16,3 +18,4 @@
 . https://www.youtube.com/watch?v=syKhpTOCDYI&t=8s Date of access: 2 Septemeber 2022.
 - Microsoft Docs.Publish an ASP.NET Core web API to Azure API Management with Visual Studio. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0 Date of access: September 2022
 - Microsoft Developer. 2020.Demo: Azure AD Authentication for Azure SQL | Azure SQL for beginners (Ep. 25). https://www.youtube.com/watch?v=IwpmLUpvTBA Date of access:
+- MS docs. 2022.Web API Implementation. https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-implementation Date of access: 05 September 2022
