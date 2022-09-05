@@ -18,3 +18,4 @@ C-Create(PUT) R-Read(GET) U-Update(POST) D- Delete( DELETE)
 . https://www.youtube.com/watch?v=syKhpTOCDYI&t=8s Date of access: 2 Septemeber 2022.
 - Microsoft Docs.Publish an ASP.NET Core web API to Azure API Management with Visual Studio. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0 Date of access: September 2022
 - Microsoft Developer. 2020.Demo: Azure AD Authentication for Azure SQL | Azure SQL for beginners (Ep. 25). https://www.youtube.com/watch?v=IwpmLUpvTBA Date of access:
+- MS docs. 2022.Web API Implementation. https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-implementation Date of access: 05 September 2022
