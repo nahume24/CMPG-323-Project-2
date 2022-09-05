@@ -1,10 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Project2_32210310.Authentication
+
+namespace JWTAuthentication.Authentication
+
 {
+
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+
     {
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 
         {
@@ -20,5 +25,7 @@ namespace Project2_32210310.Authentication
             base.OnModelCreating(builder);
 
         }
+
     }
+
 }

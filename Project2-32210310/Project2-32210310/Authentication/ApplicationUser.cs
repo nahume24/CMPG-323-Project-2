@@ -1,8 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Project2_32210310.Authentication
+
+
+namespace JWTAuthentication.Authentication
+
 {
-    public class ApplicationUser: IdentityUser
+
+    public class ApplicationUser : IdentityUser
+
     {
+
     }
+
 }

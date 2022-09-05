@@ -119,5 +119,6 @@ namespace Project2_32210310.Controllers
         {
             return _context.Device.Any(e => e.DeviceId == id);
         }
+        //a private method in the API that checks if a Device exists
     }
 }
