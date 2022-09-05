@@ -1,4 +1,5 @@
-﻿using JWTAuthentication.Authentication;
+﻿using Microsoft.AspNetCore.Authorization;
+using JWTAuthentication.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +15,7 @@ using System.Threading.Tasks;
 namespace JWTAuthentication.Controllers
 
 {
-
+    [Authorize]
     [Route("api/[controller]")]
 
     [ApiController]
