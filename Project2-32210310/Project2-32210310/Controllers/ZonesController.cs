@@ -99,6 +99,10 @@ namespace Project2_32210310.Controllers
             return CreatedAtAction("GetZone", new { id = zone.ZoneId }, zone);
         }
 
+        // PATCH: api/posts/1
+        // method that will update an existing Zone entry on the database
+        [HttpPatch]
+
         // DELETE: api/Zones/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Zone>> DeleteZone(Guid id)
