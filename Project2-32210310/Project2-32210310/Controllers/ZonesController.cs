@@ -20,14 +20,14 @@ namespace Project2_32210310.Controllers
             _context = context;
         }
 
-        // GET: api/Zones
+        // GET: api/Zones - all Zone entries from the database
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Zone>>> GetZone()
         {
             return await _context.Zone.ToListAsync();
         }
 
-        // GET: api/Zones/5
+        // GET: api/Zones/5 -retrieve one Zone from the database based on the ID parsed through
         [HttpGet("{id}")]
         public async Task<ActionResult<Zone>> GetZone(Guid id)
         {
@@ -41,41 +41,9 @@ namespace Project2_32210310.Controllers
             return zone;
         }
 
-        // PUT: api/Zones/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutZone(Guid id, Zone zone)
-        {
-            if (id != zone.ZoneId)
-            {
-                return BadRequest();
-            }
 
-            _context.Entry(zone).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ZoneExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Zones
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // POST: api/Zones -  a new Zone entry on the database
         [HttpPost]
         public async Task<ActionResult<Zone>> PostZone(Zone zone)
         {
@@ -103,7 +71,8 @@ namespace Project2_32210310.Controllers
         // method that will update an existing Zone entry on the database
         [HttpPatch]
 
-        // DELETE: api/Zones/5
+
+        // DELETE: api/Zones/5 - delete an existing Zone entry on the database
         [HttpDelete("{id}")]
         public async Task<ActionResult<Zone>> DeleteZone(Guid id)
         {
@@ -118,10 +87,43 @@ namespace Project2_32210310.Controllers
 
             return zone;
         }
+        [HttpGet]
 
         private bool ZoneExists(Guid id)
         {
             return _context.Zone.Any(e => e.ZoneId == id);
+        }
+
+        // PUT: api/Zones/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [HttpPut("{id}")]
+        private async Task<IActionResult> PutZone(Guid id, Zone zone)
+        {
+            if (id != zone.ZoneId)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(zone).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ZoneExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
     }
 }
