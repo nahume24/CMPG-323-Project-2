@@ -49,6 +49,8 @@ namespace JWTAuthentication.Controllers
         [HttpPost]
 
         [Route("login")]
+        //[Route("register-admin")]
+        [Authorize(Roles = UserRoles.Admin)]
 
         public async Task<IActionResult> Login([FromBody] LoginModel model)
 

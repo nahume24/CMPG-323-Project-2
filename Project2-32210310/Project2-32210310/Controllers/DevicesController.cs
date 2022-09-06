@@ -11,6 +11,7 @@ namespace Project2_32210310.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class DevicesController : ControllerBase
     {
         private readonly _32210310Project2Context _context;
