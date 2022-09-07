@@ -55,7 +55,7 @@ namespace JWTAuthentication
 
                 {
 
-                    Title = "JWTToken_Auth_API",
+                    Title = "Project 2-32210310",
 
                     Version = "v2"
 
