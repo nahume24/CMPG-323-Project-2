@@ -21,3 +21,5 @@ C-Create(PUT) R-Read(GET) U-Update(POST) D- Delete( DELETE)
 - MS Docs.2022. Reverse Engineering.https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/?tabs=dotnet-core-cli Date of access: 06 September 2022.
 - MS Docs.2022. Tutorial: Enable Azure Active Directory only authentication with Azure SQL .https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-azure-ad-only-authentication-tutorial?view=azuresql&tabs=azure-portal date of access:06 September 2022
 - MS Docs. 2022. Azure AD-only authentication with Azure SQL. https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-azure-ad-only-authentication?view=azuresql&tabs=azure-cli Date of access :06 September 2022
+- Patrick God. 2021. .NET 6 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication
+. https://www.youtube.com/watch?v=v7q3pEK1EA0 Date of access: 05 September 2022
