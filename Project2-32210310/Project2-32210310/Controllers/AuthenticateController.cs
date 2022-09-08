@@ -15,10 +15,11 @@ using System.Threading.Tasks;
 namespace JWTAuthentication.Controllers
 
 {
-   // [Authorize]
+    [Authorize(Roles = UserRoles.Admin )]
+    [ApiController]
     [Route("api/[controller]")]
 
-    [ApiController]
+    
 
     public class AuthenticateController : ControllerBase
 

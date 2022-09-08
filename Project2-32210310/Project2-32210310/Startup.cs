@@ -190,12 +190,8 @@ namespace JWTAuthentication
             app.UseRouting();
 
 
-
             app.UseAuthentication();
-
             app.UseAuthorization();
-
-
 
             app.UseEndpoints(endpoints =>
 

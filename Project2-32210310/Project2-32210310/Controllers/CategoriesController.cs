@@ -8,10 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2_32210310.Models;
 using Microsoft.AspNetCore.JsonPatch;
+using JWTAuthentication.Authentication;
 
 namespace Project2_32210310.Controllers
 {
     //[Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
 
     [Route("api/[controller]")]
     [ApiController]
