@@ -7,10 +7,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2_32210310.Models;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace Project2_32210310.Controllers
 {
-    [Authorize]
+    //[Authorize]
 
     [Route("api/[controller]")]
     [ApiController]
@@ -100,6 +101,36 @@ namespace Project2_32210310.Controllers
             }
 
             return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
+        }
+        
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchCategory(Guid id, Category category)
+        {
+            if (id != category.CategoryId)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(category).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!CategoryExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
         // DELETE: api/Categories/5

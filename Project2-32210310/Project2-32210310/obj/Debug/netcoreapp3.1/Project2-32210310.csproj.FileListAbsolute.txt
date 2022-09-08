@@ -141,3 +141,6 @@ C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-3221031
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\user\source\repos\nahume24\CMPG-323-Project-2-32210310\Project2-32210310\Project2-32210310\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

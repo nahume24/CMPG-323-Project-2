@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2_32210310.Models;
+using Microsoft.AspNetCore.JsonPatch;
+
 
 namespace Project2_32210310.Controllers
 {
@@ -69,7 +71,34 @@ namespace Project2_32210310.Controllers
 
         // PATCH: api/posts/1
         // method that will update an existing Zone entry on the database
-        [HttpPatch]
+        [HttpPatch("{id}")]
+        private async Task<IActionResult> PatchZone(Guid id, Zone zone)
+        {
+            if (id != zone.ZoneId)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(zone).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ZoneExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
 
 
         // DELETE: api/Zones/5 - delete an existing Zone entry on the database

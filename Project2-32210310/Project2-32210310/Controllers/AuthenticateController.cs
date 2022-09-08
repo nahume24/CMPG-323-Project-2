@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace JWTAuthentication.Controllers
 
 {
-    [Authorize]
+   // [Authorize]
     [Route("api/[controller]")]
 
     [ApiController]

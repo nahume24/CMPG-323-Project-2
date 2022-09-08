@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2_32210310.Models;
+using Microsoft.AspNetCore.JsonPatch;
+
 
 namespace Project2_32210310.Controllers
 {
@@ -69,7 +71,34 @@ namespace Project2_32210310.Controllers
         }
 
         //Patch
-        [HttpPatch]
+        [HttpPatch("{id}")] //update or
+        private async Task<IActionResult> PatchDevice(Guid id, Device device)
+        {
+            if (id != device.DeviceId)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(device).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!DeviceExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
 
         // DELETE: api/Devices/5
         [HttpDelete("{id}")]

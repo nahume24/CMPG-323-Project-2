@@ -13,8 +13,8 @@ using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
 //using Project2_32210310.Authentication;
 using Project2_32210310.Models;
-
-
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace JWTAuthentication
 
@@ -46,6 +46,7 @@ namespace JWTAuthentication
 
             services.AddControllers();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
+            //services.AddControllers().AddNewtonsftJson;
 
 
 
@@ -107,6 +108,8 @@ namespace JWTAuthentication
             // For Entity Framework   
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+
+            services.AddDbContext<_32210310Project2Context>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")),ServiceLifetime.Transient);
 
 
 
@@ -205,7 +208,9 @@ namespace JWTAuthentication
             app.UseSwagger();
             app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Project2"));
 
+
         }
+
 
     }
 
