@@ -46,3 +46,5 @@ https://www.youtube.com/watch?v=SR_JEdhxWx0 Date of access: 08 September 2022
 https://www.youtube.com/watch?v=K78YRbm-OEk&t=23s Date of access: 08 September 2022
 - Curious Drive. ASP.NET Core Web API + Entity Framework Core : Database First - EP01
 https://www.youtube.com/watch?v=CLVJVA9cTuU Date of access: 08 September 2022
+- DEVREAL. 2021. Azure API Management in 7 minutes (from provisioning to API deployment) - tutorial for beginners
+. https://www.youtube.com/watch?v=Gu9reN09mXI Date of access: 08 September 2022
