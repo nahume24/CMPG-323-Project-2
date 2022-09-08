@@ -45,6 +45,7 @@ namespace JWTAuthentication
         {
 
             services.AddControllers();
+
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
             //services.AddControllers().AddNewtonsftJson;
 
@@ -66,7 +67,9 @@ namespace JWTAuthentication
 
                 {
 
+                    //Name = "Authorization",
                     Name = "Authorization",
+
 
                     Type = SecuritySchemeType.ApiKey,
 
@@ -202,7 +205,7 @@ namespace JWTAuthentication
             });
 
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Project2"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Project2-32210310"));
 
 
         }
