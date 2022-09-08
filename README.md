@@ -26,3 +26,5 @@ To run the api from the hosted have to use this from the host: https://project2-
 - MS Docs. 2022. Azure AD-only authentication with Azure SQL. https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-azure-ad-only-authentication?view=azuresql&tabs=azure-cli Date of access :06 September 2022
 - Patrick God. 2021. .NET 6 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication
 . https://www.youtube.com/watch?v=v7q3pEK1EA0 Date of access: 05 September 2022
+ - WebGentle. 2021. HTTPPATCH: Create API to partially update an item | ASP.NET Core 5.0 Web API tutorial
+https://www.youtube.com/watch?v=SR_JEdhxWx0 Date of access: 08 September 2022
