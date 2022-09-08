@@ -6,6 +6,8 @@ C-Create(PUT) R-Read(GET) U-Update(POST) D- Delete( DELETE)
 # How stakeholders are to use the report
 
 # How the user would use the API
+To access the API hav to use the resource name and pasword.
+To run the api from the hosted have to use this: 
 
 # Referencing
 - Galloway J, Montemagno J.2021. Modern Web Development with .NET 6 Ep3: Create a web API with ASP.NET Core Controllers https://docs.microsoft.com/en-us/shows/learn-live/modern-web-development-net6-ep03-create-web-api-aspnet-core-controllers Date of access: 24 august 2022
