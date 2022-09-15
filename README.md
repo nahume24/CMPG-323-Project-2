@@ -16,6 +16,10 @@ Server name: 32210310project2.database.windows.net
 password:Nahume123!
 
 To run the api from the hosted have to use this from the host: https://project2-3221031020220907164634.azurewebsites.net/swagger/index.html
+# API Management
+![API management](https://user-images.githubusercontent.com/38375869/190322521-0eb3ff10-db29-4ce0-bf7e-da28159a133a.PNG)
+
+![API instance](https://user-images.githubusercontent.com/38375869/190322497-ee6faea5-4a18-47af-8644-e34a4240e7e6.PNG)
 
 # Referencing
 - Galloway J, Montemagno J.2021. Modern Web Development with .NET 6 Ep3: Create a web API with ASP.NET Core Controllers https://docs.microsoft.com/en-us/shows/learn-live/modern-web-development-net6-ep03-create-web-api-aspnet-core-controllers Date of access: 24 august 2022
