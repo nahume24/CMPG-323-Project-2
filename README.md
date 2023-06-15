@@ -1,4 +1,4 @@
-# CMPG-323-Project-2---32210310
+# CMPG-323-Project-2
 ![api-512d36c09662682717108a38bbb5c57d](https://user-images.githubusercontent.com/38375869/186129418-4ea5a789-1a4f-49f9-b384-61a8c2ae4559.gif)
 # About Project
 The aim of the project is to develop a CRUD RESTful API that will connect to a database containING data from IoT devices. The API(Application Programming Interface) will have at least one get, post, patch, and delete method for each resource/contoller.Namely Zone,Device,Category. A variety of the RESTful API design's interfaces will be Saas and execute application code to alter databases.The database will be run on Azure
